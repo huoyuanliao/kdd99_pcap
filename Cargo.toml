@@ -1,0 +1,8 @@
+[package]
+name = "liaozy"
+version = "0.1.0"
+authors = ["liaozy <798389647@qq.com>"]
+
+[dependencies]
+pcap-file = "0.7.0"
+pnet = {version = "0.20.0", features = ["pcap"]}
